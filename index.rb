@@ -20,8 +20,8 @@ def bubble_sort_by(array)
   until i == len
     j = i + 1
     while j < len
-        array[i], array[j] = array[j], array[i] if yield(array[i], array[j]).positive?
-        j += 1
+      array[i], array[j] = array[j], array[i] if yield(array[i], array[j]).positive?
+      j += 1
     end
     i += 1
   end
