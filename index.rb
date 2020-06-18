@@ -27,8 +27,3 @@ def bubble_sort_by(array)
   end
   array
 end
-
-array = [2, 5, 7, 2, 8, 1, 100, 0, 6, 9, 35, 3]
-p bubble_sort(array)
-array = %w[hi hello hey hey ruby microverse]
-p bubble_sort_by(array) { |left, right| left.length - right.length }
