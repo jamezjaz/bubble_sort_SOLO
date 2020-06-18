@@ -4,6 +4,9 @@ This project is an implementation of bubble sort algorithm in Ruby.
 ## Built With
 
 - Ruby
+- VS Code
+- Rubocop
+- GHA
 
 ## Getting Started
 - Clone this repo on your local machine
